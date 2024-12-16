@@ -27,7 +27,7 @@ const ImageList = [
   {
     id: 3,
     img: Image1,
-    title: "100% Free To Use",
+    title: "100% Free To Use And In Diffrent Language",
     description:
       "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
