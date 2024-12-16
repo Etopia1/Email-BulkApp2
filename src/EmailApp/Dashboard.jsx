@@ -592,6 +592,11 @@ const Dashboard = () => {
       });
       toast.success(response.data.message || 'Emails sent successfully!');
       setLoading(false);
+      setMessage("")
+      setSubject("")
+      setEmailInput("")
+      setLanguage('en')
+      setEmailObject({})
     } catch (error) {
       console.error(error);
       toast.error(error.response?.data?.message || 'Error sending emails.');
